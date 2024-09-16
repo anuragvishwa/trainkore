@@ -17,12 +17,10 @@ export default function Workflows() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Map your product journey
+              Model Router
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Simple and elegant interface to start collaborating with your team
-              in minutes. It seamlessly integrates with your code and your
-              favorite programming languages.
+              Higher performance and lower cost than any single LLM
             </p>
           </div>
           {/* Spotlight items */}
@@ -68,8 +66,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Select the Cost Optimized Model from dropdown
                   </p>
                 </div>
               </div>
@@ -115,8 +112,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Best model is choosen automatically based on algorithm
                   </p>
                 </div>
               </div>
@@ -162,8 +158,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Generate prompts at 85% less cost
                   </p>
                 </div>
               </div>

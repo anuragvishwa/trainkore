@@ -8,7 +8,7 @@ import CarouselImg01 from "@/public/images/carousel-01.png";
 import CarouselImg02 from "@/public/images/carousel-02.png";
 import CarouselImg03 from "@/public/images/carousel-03.png";
 import SmallTestimonialImg from "@/public/images/small-testimonial.jpg";
-
+import dashboard from "@/public/images/dashboard.png";
 const tabs = [
   {
     title: "Strategic Sync",
@@ -40,6 +40,13 @@ export default function SplitCarousel() {
     <section>
       <TabGroup selectedIndex={selectedTab} onChange={setSelectedTab} vertical>
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div>
+            <Image
+              className="w-full h-auto rounded-lg shadow-md"
+              src={dashboard}
+              alt="Features illustration"
+            />
+          </div>
           <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.25),transparent)1] md:py-20">
             <div className="flex flex-col items-center justify-between pb-12 md:flex-row md:gap-8 md:pb-20 lg:gap-16">
               {/* Left content */}
@@ -66,10 +73,18 @@ export default function SplitCarousel() {
                     {tabs.map((tab, index) => (
                       <Tab key={index} as={Fragment}>
                         <button
-                          className={`-mx-2 flex gap-2 p-2 text-left transition-opacity focus-visible:outline-none ui-focus-visible:outline-none ui-focus-visible:ring ui-focus-visible:ring-indigo-300 ${selectedTab !== index ? "opacity-50 hover:opacity-70" : ""}}`}
+                          className={`-mx-2 flex gap-2 p-2 text-left transition-opacity focus-visible:outline-none ui-focus-visible:outline-none ui-focus-visible:ring ui-focus-visible:ring-indigo-300 ${
+                            selectedTab !== index
+                              ? "opacity-50 hover:opacity-70"
+                              : ""
+                          }}`}
                         >
                           <svg
-                            className={`shrink-0 ${selectedTab !== index ? "fill-gray-600" : "fill-indigo-500"}`}
+                            className={`shrink-0 ${
+                              selectedTab !== index
+                                ? "fill-gray-600"
+                                : "fill-indigo-500"
+                            }`}
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
                             height="16"
