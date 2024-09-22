@@ -11,6 +11,7 @@ import Features from "@/components/features";
 import SplitCarousel from "@/components/split-carousel";
 import Cta from "@/components/cta";
 import FeaturesPlanet from "./featurePlanet";
+import PromptVersioning from "./promptVersioning";
 import CodeView from "./codeView";
 import dashboard from "@/public/images/dashboard_dark.png";
 import Image from "next/image";
@@ -28,7 +29,7 @@ export default function Home() {
       {/* <Features /> */}
       <FeaturesPlanet />
       <CodeView />
-
+      <PromptVersioning />
       <SplitCarousel />
       {/* <Workflows /> */}
       <FeaturesLog />
