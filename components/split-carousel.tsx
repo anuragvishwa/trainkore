@@ -39,10 +39,10 @@ export default function SplitCarousel() {
   return (
     <section>
       <TabGroup selectedIndex={selectedTab} onChange={setSelectedTab} vertical>
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 mt-20">
           <div>
             <Image
-              className="w-full h-auto rounded-lg shadow-md"
+              className="w-full h-auto rounded-lg shadow-md mt-4"
               src={dashboard}
               alt="Features illustration"
             />
