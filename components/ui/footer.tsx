@@ -24,7 +24,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
           </div>
 
           {/* Social block (Aligned to the right) */}
-          <div className="space-y-2">
+          {/* <div className="space-y-2">
             <h3 className="text-sm font-medium pl-2">Social</h3>
             <ul className="flex gap-2">
               <li>
@@ -73,7 +73,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

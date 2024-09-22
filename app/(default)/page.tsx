@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Trainkore",
+  description: "Prompting and RAG platform",
 };
 
 import PageIllustration from "@/components/page-illustration";
@@ -30,7 +30,7 @@ export default function Home() {
       <CodeView />
 
       <SplitCarousel />
-      <Workflows />
+      {/* <Workflows /> */}
       <FeaturesLog />
 
       <Cta />

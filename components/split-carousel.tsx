@@ -11,23 +11,23 @@ import SmallTestimonialImg from "@/public/images/small-testimonial.jpg";
 import dashboard from "@/public/images/dashboard.png";
 const tabs = [
   {
-    title: "Strategic Sync",
+    title: "Best-in-class Playground",
     description:
-      "Remove corners from the avatars and transform the way your team work.",
+      "Manage and iterate on prompts across your organization.",
     img: CarouselImg01,
     imgAlt: "Carousel image 01",
   },
   {
-    title: "Feedback Loop",
+    title: "All the models",
     description:
-      "Best-in-class design practices to keep your work safe and secure.",
+      "OpenAI, Anthropic, Llama2 and your own models.",
     img: CarouselImg02,
     imgAlt: "Carousel image 02",
   },
   {
-    title: "Enterprise-Ready",
+    title: "Model Switching",
     description:
-      "Built for teams of all sizes. From early-stage startups to global enterprises.",
+      "Automatically switch to the best model based on your prompts.",
     img: CarouselImg03,
     imgAlt: "Carousel image 03",
   },
@@ -59,12 +59,10 @@ export default function SplitCarousel() {
                 <div className="relative mb-6 border-l [border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.400/.25),transparent)1] after:absolute after:left-0 after:top-0 after:h-4 after:w-px after:origin-bottom after:-translate-y-full after:animate-shine after:bg-[linear-gradient(180deg,_transparent,_theme(colors.indigo.500/.5)_25%,_theme(colors.indigo.500)_50%,_theme(colors.indigo.500/.5)_75%,_transparent)] after:opacity-0">
                   <div className="mb-4">
                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                      Improve efficiency & global coverage
+                    LLMs in a unified platform
                     </h2>
                     <p className="text-indigo-200/65">
-                      Open is so simple to use, it's easy to overlook the wealth
-                      of complex technologies packed under the hood that keep
-                      Open robust, safe, and blazing fast.
+                    Building good AI is about understanding your users. That's why subject matter experts are the best prompt engineers.
                     </p>
                   </div>
 
@@ -106,30 +104,8 @@ export default function SplitCarousel() {
                   </TabList>
                 </div>
                 <div>
-                  <p className="mb-4 font-nacelle text-gray-200">
-                    “I was blown away by how easy it was to create my content
-                    using this tool! Within a few hours, I had a
-                    professional-looking flow up and running.”
-                  </p>
-                  <div className="flex items-center gap-3">
-                    <Image
-                      className="inline-flex shrink-0 rounded-full"
-                      src={SmallTestimonialImg}
-                      width={24}
-                      height={24}
-                      alt="Small testimonial"
-                    />
-                    <div className="text-sm font-medium text-gray-200">
-                      <span>Chris Pick</span>
-                      <span className="text-gray-700"> - </span>
-                      <a
-                        className="text-indigo-200/65 transition-colors hover:text-indigo-500"
-                        href="#0"
-                      >
-                        Notion Circle
-                      </a>
-                    </div>
-                  </div>
+                 
+               
                 </div>
               </div>
 
