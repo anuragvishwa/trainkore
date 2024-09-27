@@ -18,7 +18,7 @@ export default function PromptVersioning() {
           <div className="grid grid-cols-1 md:items-center gap-y-8 md:grid-cols-2 md:gap-x-16">
             <div className="text-center md:text-left lg:pr-16">
               <h2 className={`text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl ${plusJakartaSans.className}`}>
-                Prompt Playground with Versioning
+                Prompt Versioning
               </h2>
               <p className={`mt-4 text-base text-gray-700 sm:mt-8 ${plusJakartaSans.className}`}>
                 Includes all the famous models from OpenAI, Gemini, Coherence, Anthropic, Azure and many more.
