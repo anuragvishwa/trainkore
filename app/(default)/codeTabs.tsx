@@ -20,28 +20,9 @@ export default function CodeTabs() {
 
   console.log(chat.choices);`;
 
-  const pythonCode = `from trainkore_ai import Trainkore
-trainkore = Trainkore()
+  const pythonCode = `Coming Soon`;
 
-chat = trainkore.chat.completions.create(
-    messages = [{ "role": 'user', "content": 'Say this is a test' }],
-    model = 'gpt-4o
-)
-
-print(chat.choices)`;
-
-  const curlCode = `curl https://api.trainkore.com/v1/chat/completions \\
-  -H "Content-Type: application/json" \\
-  -H "Authorization: Bearer $OPENAI_API_KEY" \\
-  -H "x-portkey-api-key: $PORTKEY_API_KEY" \\
-  -H "x-portkey-provider: openai" \\
-  -d '{
-    "model": "gpt-4o",
-    "messages": [{
-        "role": "user",
-        "content": "Say this is a test."
-      }]
-  }'`;
+  const curlCode = `Coming Soon`;
   return (
     <section>
       <div className="mb-12 mx-auto px-4 sm:px-6">

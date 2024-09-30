@@ -19,9 +19,9 @@ export default function Cta() {
     <section className="py-12 bg-gray-50 sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center xl:max-w-4xl">
-          <h2 className={`text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl ${plusJakartaSans.className}`}>
+          <h4 className={`text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl ${plusJakartaSans.className}`}>
           Model agnostic template for every model
-          </h2>
+          </h4>
         </div>
 
         <div className="relative mt-12 lg:mt-20 lg:max-w-5xl lg:mx-auto">
