@@ -10,10 +10,10 @@ export default function CodeTabs() {
   const tabsRef = useRef<HTMLDivElement>(null);
   const [selectedTab, setSelectedTab] = useState<number>(0);
 
-  const codeString = `import Trainkore from 'trainkore-ai';
+  const codeString = `import Trainkore from 'trainkore';
   const trainkore = new Trainkore()
 
-  const chat = await trainkore.chat.completions.create({
+  const chat = await trainkore.chatPrompt.create({
     messages: [{ role: 'user', content: 'Say this is a test' }],
     model: 'gpt-4o,
   });
