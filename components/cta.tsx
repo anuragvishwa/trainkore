@@ -19,7 +19,7 @@ export default function Cta() {
     <section className="py-12 bg-gray-50 sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center xl:max-w-4xl">
-          <h4 className={`text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl ${plusJakartaSans.className}`}>
+          <h4 className={`text-2xl font-bold text-gray-900 sm:text-4xl xl:text-4xl ${plusJakartaSans.className}`}>
           Model agnostic template for every model
           </h4>
         </div>
@@ -37,22 +37,22 @@ export default function Cta() {
 
           <div className="relative grid grid-cols-1 px-16 py-12 overflow-hidden text-center bg-white sm:grid-cols-2 gap-y-12 lg:grid-cols-4 rounded-2xl gap-x-20">
             <div className="flex flex-col items-center">
-              <p className={`text-3xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Prompt Generation</p>
+              <p className={`text-2xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Prompt Generation</p>
               <h3 className={`mt-5 text-sm font-bold tracking-widest text-gray-800 uppercase lg:mt-0 lg:order-1 ${plusJakartaSans.className}`}>Auto</h3>
             </div>
 
             <div className="flex flex-col items-center">
-              <p className={`text-3xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Model Switching</p>
+              <p className={`text-2xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Model Switching</p>
               <h3 className={`mt-5 text-sm font-bold tracking-widest text-gray-800 uppercase lg:mt-0 lg:order-1 ${plusJakartaSans.className}`}>Optimized</h3>
             </div>
 
             <div className="flex flex-col items-center">
-              <p className={`text-3xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Monitor Usage</p>
+              <p className={`text-2xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Monitoring Usage</p>
               <h3 className={`mt-5 text-sm font-bold tracking-widest text-gray-800 uppercase lg:mt-0 lg:order-1 ${plusJakartaSans.className}`}>Observability</h3>
             </div>
 
             <div className="flex flex-col items-center">
-              <p className={`text-3xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Prompt Evaluation</p>
+              <p className={`text-2xl font-bold text-gray-800 lg:mt-3 lg:order-2 ${plusJakartaSans.className}`}>Prompt Evaluation</p>
               <h3 className={`mt-5 text-sm font-bold tracking-widest text-gray-800 uppercase lg:mt-0 lg:order-1 ${plusJakartaSans.className}`}>Iteratively</h3>
             </div>
           </div>
